@@ -26,11 +26,8 @@ Phishing-URL-Detector/
 │
 ├── phishing_detector.py
 ├── README.md
-├── requirements.txt
-└── screenshots/
-    ├── safe_url.png
-    ├── suspicious_url.png
-    └── phishing_url.png
+├── Phishing_Detection_Report.pdf
+
 ```
 
 ## How It Works
@@ -44,14 +41,6 @@ The detector evaluates a URL against multiple phishing indicators:
 5. HTTPS validation
 6. Misspelling and typosquatting patterns
 7. Excessive subdomains
-
-Based on the calculated score:
-
-| Score | Result         |
-| ----- | -------------- |
-| 0 - 1 | SAFE URL       |
-| 2 - 4 | SUSPICIOUS URL |
-| 5+    | PHISHING URL   |
 
 ## Installation
 
@@ -102,10 +91,6 @@ Reasons:
 ### Suspicious URL Detection
 
 ![Suspicious URL](screenshots/suspicious_url.png)
-
-### Phishing URL Detection
-
-![Phishing URL](screenshots/phishing_url.png)
 
 ## Future Enhancements
 
